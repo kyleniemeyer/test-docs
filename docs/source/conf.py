@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'test-docs'
+project = 'rescale'
 copyright = '2024, Kyle Niemeyer'
 author = 'Kyle Niemeyer'
 release = '0.0.1'
@@ -14,11 +14,16 @@ release = '0.0.1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon']
+
+autodoc_default_options = {'members': True}
+autoclass_content = 'class'
+napoleon_numpy_docstring = True
+napoleon_google_docstring = False
+
 
 templates_path = ['_templates']
 exclude_patterns = []
-
 
 
 # -- Options for HTML output -------------------------------------------------
