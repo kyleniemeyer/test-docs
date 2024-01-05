@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'package'
+project = 'test-docs'
 copyright = '2024, Kyle Niemeyer'
 author = 'Kyle Niemeyer'
 release = '0.0.1'

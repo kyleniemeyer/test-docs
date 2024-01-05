@@ -1,10 +1,10 @@
-.. package documentation master file, created by
-   sphinx-quickstart on Thu Jan  4 10:18:12 2024.
+.. test-docs documentation master file, created by
+   sphinx-quickstart on Fri Jan  5 13:32:49 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to package's documentation!
-===================================
+Welcome to test-docs's documentation!
+=====================================
 
 .. toctree::
    :maxdepth: 2
