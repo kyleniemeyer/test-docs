@@ -21,3 +21,18 @@ def rescale(input_array):
     H = np.max(input_array)
     output_array = (input_array - L) / (H - L)
     return output_array
+
+def rescale2(input_value):
+    """Rescales a value to 1.
+
+    Parameters
+    ----------
+    input_value : float
+        Input value to be scaled.
+
+    Returns
+    -------
+    output_value : int
+        Scaled value
+    """
+    return input_value / input_value
